@@ -1,0 +1,90 @@
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap:0;
+    grid-template-areas:"footer1 footer1-1 footer1-1-1" " . . cards";
+    color: black;
+}
+.footer1{
+    grid-area: footer1;  
+}
+.footer1-1{
+    grid-area: footer1-1; 
+    justify-self: center; 
+    
+}
+.services>li{
+    list-style: none;
+    color: #000000;
+}
+.social{
+    margin:10px;
+
+}
+.social>a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5px;
+    color: black;
+}
+.footer1-1-1{
+    grid-area: footer1-1-1;
+}
+#rfspanimg img{
+    width: 8%;
+    height: auto;
+}
+.cards{
+    grid-area: cards;
+    align-items: center;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    color: rgb(0, 0, 0);
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30px;
+}
+.btn1{
+    width: 30%;
+    height: 25px;
+    color: white;
+    background-color: #000000;
+}
+p>a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 2px;
+    margin:0px;
+}
+.footer1-1-1>p{
+    margin: 0px;
+    padding: 0px;
+    margin-left:20px;
+}
+h5{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.form>input{
+    width: 50%;
+    height: 30px;
+    margin-left: 35px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

@@ -3,7 +3,7 @@ body{
     font-family: Arial, sans-serif;
     color: #333;
     margin: 0;
-    padding: 0px;
+    padding: 10px;
     line-height: 1.6;
 }
 .shop-name{
@@ -11,22 +11,50 @@ body{
     margin: 0px;
 }
 .container2{
-    display:inline-block;
+    display:inline;
     width: 40%;
 }
 .container1{
     float:left;
     width: 60%;
 }
-.Signin{
-    justify-content: flex-end;
+.container1>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;;
+}
+.signin{
+    flex-direction:row;
+    display:flex;
+    justify-content: space-evenly;
     margin-bottom: 30px;
     align-self: stretch;
+
+}
+.signin>a{
+    text-decoration: none;
+    color: black;
 }
 .icons{
     justify-content: flex-start;
     margin-right: 100px;
 }
 .search{
-    display:flex;
+    position: relative;
+    width: 100%;
+}
+.search>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+    position: absolute;
+    top: 50%;
+    right: 460px;
+    transform: translateY(-50%);
+
+}.search >input{
+    margin-right: 0px;
+    width: 25%;
+    padding:10px 10px 10px 35px;
+    box-sizing: border-box;
 }
