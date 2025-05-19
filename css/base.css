@@ -46,13 +46,13 @@ body{
 .search>a{
     text-decoration: none;
     color: black;
-    margin-left: 0px;
+    margin-right: 30px;
     position: absolute;
     top: 50%;
-    right: 460px;
+    right: 550px;
     transform: translateY(-50%);
-
-}.search >input{
+}
+.search >input{
     margin-right: 0px;
     width: 25%;
     padding:10px 10px 10px 35px;

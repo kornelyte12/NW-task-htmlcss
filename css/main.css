@@ -1,0 +1,44 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.img-mini{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+.shoes-name{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    margin-right: -50px;
+}
+.rebot>img{
+    width: 100%;
+    height: auto;
+}
+.rebot>{
+    display:grid;
+    grid-template-columns: 0.75fr 1.25fr;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    margin:0;
+}
+.rebot1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 0px;
+}
+.rebot1>img{
+    width: 97%;
+    height: auto;
+    margin: 3px;
+}
