@@ -19,18 +19,6 @@ img{
     width: 90%;
     margin-right: -50px;
 }
-.rebot>img{
-    width: 100%;
-    height: auto;
-}
-.rebot>{
-    display:grid;
-    grid-template-columns: 0.75fr 1.25fr;
-    gap: 10px;
-    margin: 0 auto;
-    padding: 10px;
-    margin:0;
-}
 .rebot1{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -41,4 +29,22 @@ img{
     width: 97%;
     height: auto;
     margin: 3px;
+}
+.rebot{
+    display: inline-flex;
+    width: 40%;
+    margin-left: 100px;;
+}
+
+.sale{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    gap: 7px;
+    margin: 0 auto;  
+}
+.imgbigt{
+    height: 100%;
+}
+.imgbigg{
+    height: 100%;
 }
