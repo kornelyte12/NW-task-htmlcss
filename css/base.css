@@ -1,5 +1,5 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #fffefe;
     font-family: Arial, sans-serif;
     color: #333;
     margin: 0;
@@ -9,6 +9,7 @@ body{
 .shop-name{
     font-size: 3em;
     margin: 0px;
+    margin-left: 10px;;
 }
 .container2{
     display:inline;
@@ -42,6 +43,9 @@ body{
 .search{
     position: relative;
     width: 100%;
+    display: inline;
+    justify-content: center;
+    gap: 10px;
 }
 .search>a{
     text-decoration: none;
@@ -49,7 +53,7 @@ body{
     margin-right: 30px;
     position: absolute;
     top: 50%;
-    right: 550px;
+    right: 320px;
     transform: translateY(-50%);
 }
 .search >input{

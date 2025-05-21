@@ -10,7 +10,7 @@
 }
 .top>div, .bottom>div{
     flex: 1;
-    padding: 20px;
+    padding: 0px;
 }
 .top img, .bottom img{
     width: 100%;
