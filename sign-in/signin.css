@@ -1,0 +1,167 @@
+body{
+    background-color: #fffefe;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.6;
+}
+.shop-name{
+    font-size: 3em;
+    margin: 0px;
+    margin-left: 10px;;
+}
+.container2{
+    display:inline;
+    width: 40%;
+}
+.container1{
+    float:left;
+    width: 60%;
+}
+.container1>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 12px;;
+}
+.signin{
+    flex-direction:row;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    align-self: stretch;
+
+}
+.signin>a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.search{
+    position: relative;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    gap: 10px;
+}
+.search>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    position: absolute;
+    top: 50%;
+    right: 320px;
+    transform: translateY(-50%);
+}
+.search >input{
+    margin-right: 0px;
+    width: 25%;
+    padding:10px 10px 10px 35px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap:0;
+    grid-template-areas:"footer1 footer1-1 footer1-1-1" " . . cards";
+    color: black;
+    width: 100%;
+}
+.footer1{
+    grid-area: footer1;  
+}
+.footer1-1{
+    grid-area: footer1-1; 
+    justify-self: center; 
+    align-self:center;
+    
+}
+.services a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    display:flex;
+    flex-direction: column;
+}
+.social{
+    margin:10px;
+
+}
+.social >a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5px;
+    color: black;
+}
+.footer1-1-1{
+    grid-area: footer1-1-1;
+}
+#rfspanimg img{
+    width: 8%;
+    height: auto;
+}
+.cards{
+    grid-area: cards;
+    align-items: center;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    color: rgb(0, 0, 0);
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30px;
+}
+.btn1{
+    width: 30%;
+    height: 25px;
+    color: white;
+    background-color: #000000;
+}
+p>a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 2px;
+    margin:0px;
+}
+.footer1-1-1>p{
+    margin: 0px;
+    padding: 0px;
+    margin-left:20px;
+}
+h5{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+}
+.form>input{
+    width: 50%;
+    height: 30px;
+    margin-left: 35px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
